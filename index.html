@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Chỉ Số BMI</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 10px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #ketQua {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Tính Chỉ Số BMI</h2>
+
+<input type="number" id="canNang" placeholder="Nhập cân nặng (kg)">
+
+<br>
+
+<input type="number" id="chieuCao" step="0.01" placeholder="Nhập chiều cao (m)">
+
+<br>
+
+<button onclick="tinhBMI()">Tính BMI</button>
+
+<p id="ketQua"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
